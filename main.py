@@ -89,3 +89,17 @@
 #     print(fruit_list[3])
 # except IndexError:
 #     print('Такого індексу не існує')
+
+
+# Напишіть програму, яка пропонує користувачу ввести список чисел,
+# відокремлених комами. Перетворіть введений рядок у список цілих чисел
+# і обробляйте помилки ValueError (у випадку невірного введення цілих чисел)
+# та IndexError (у випадку доступу до індексів, що виходять за межі діапазону).
+# try:
+#     numbers = input('Enter numbers: ')
+#     number_list = [int(num) for num in numbers.split(',')]
+#     print(number_list)
+# except ValueError:
+#     print('Введено не ціле число')
+# except IndexError:
+#     print('Нема такого індекса')
