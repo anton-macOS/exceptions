@@ -80,3 +80,12 @@
 #
 # save_to_file('file.txt')
 
+
+# Обробіть виняток IndexError, коли програма намагається отримати
+# ʼдоступ до неправильного індексу в списку.
+# fruit_list = ['apple', 'orange', 'grape']
+#
+# try:
+#     print(fruit_list[3])
+# except IndexError:
+#     print('Такого індексу не існує')
