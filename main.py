@@ -103,3 +103,13 @@
 #     print('Введено не ціле число')
 # except IndexError:
 #     print('Нема такого індекса')
+
+
+# Напишіть програму, яка читає вміст текстового файлу
+# та виводить кількість слів у ньому.
+# def count_words(file_name):
+#     file = open(file_name, 'r')
+#     print(len(file.read().split()))
+#
+#
+# count_words('file.txt')
