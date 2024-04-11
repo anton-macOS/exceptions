@@ -65,5 +65,18 @@
 #     first_open.close()
 #     second_open.close()
 #
-# 
+#
 # copy_to_file('file.txt', 'example.txt')
+
+
+# Створіть функцію, яка приймає рядок від користувача та записує його у файл.
+
+# def save_to_file(file_name):
+#     text = input('Enter text: ')
+#     file = open(file_name, 'w+')
+#     file.write(text)
+#     file.close()
+#
+#
+# save_to_file('file.txt')
+
